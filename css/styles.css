@@ -11,15 +11,10 @@ body {
     line-height: 1.5;
     font-size: 16px;
     font-weight: -400, 500, 700;
-    
+
 }
 
-ul{
-    list-style: none;
-}
-
-
-a{
+ul {
     list-style: none;
 }
 
@@ -32,12 +27,12 @@ a{
 
 
 .logo {
-   
+
     color: #2E2F42;
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
-    
+
 
 }
 
@@ -45,22 +40,23 @@ a{
     color: #4D5AE5;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    gap:0;
+    gap: 0;
     align-items: center;
     padding: 24px 0;
     border-bottom: 1px solid #ccc;
 }
 
 
-.header .container{
-    display:flex;
-    align-items:center;
+.header .container {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
+
 header nav ul li a:hover,
 header nav ul li a:focus {
     color: #ff6b08;
@@ -69,13 +65,14 @@ header nav ul li a:focus {
 .menu {
     color: #404BBF;
 }
-.menu .menu-ul{
-    gap:24px;
-    display:flex;
+
+.menu .menu-ul {
+    gap: 24px;
+    display: flex;
 }
 
 .menu .menu-ul .menu-item {
-    margin:20px;
+    margin: 20px;
 }
 
 .menu .menu-ul .menu-item a {
@@ -92,25 +89,25 @@ header nav ul li a:focus {
 
 }
 
-.contact  {
+.contact {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
     display: flex;
-    gap:8px;
+    gap: 8px;
     align-items: center;
-    
+
 }
 
 
-.contact a{
-    color:#2E2F42;
+.contact a {
+    color: #2E2F42;
     display: flex;
-    gap:30px;
+    gap: 30px;
     align-items: center;
-    
+
 
 }
 
@@ -126,12 +123,12 @@ header nav ul li a:focus {
     text-align: center;
     background-color: #2E2F42;
     color: white;
-    padding:120px 0;
-    margin:0;
+    padding: 120px 0;
+    margin: 0;
 
 }
 
-.hero .container h1{
+.hero .container h1 {
     font-size: 56px;
     line-height: 1.07143;
     letter-spacing: 0.02em;
@@ -143,7 +140,7 @@ header nav ul li a:focus {
 
 
 button {
-    
+
     background-color: #4D5AE9;
     padding-top: 16px;
     padding-right: 32px;
@@ -154,10 +151,11 @@ button {
     font-weight: 500;
     line-height: 1.5;
     cursor: pointer;
-    border:none;
-    
-    
-    
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+
+
+
 
 }
 
@@ -166,9 +164,9 @@ button:focus {
     color: #404BBF;
 }
 
-.features{
-    padding:120 px 0;
-    margin:0;
+.features {
+    padding: 120 px 0;
+    margin: 0;
 }
 
 
@@ -179,26 +177,26 @@ button:focus {
     line-height: 1.5;
 }
 
-.features .features-ul{
+.features .features-ul {
     list-style: none;
     padding: 0;
     display: flex;
-    gap:24px;
+    gap: 24px;
 }
 
-.features .features-ul .features-item{
+.features .features-ul .features-item {
     margin: 0;
     padding-bottom: 60px;
     padding-top: 60px;
     gap: 8px;
-    
-    
+
+
 }
 
-.team{
-    background-color:#F4F4FD;
-    padding:120px 0;
-    margin:0;
+.team {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+    margin: 0;
 }
 
 .team h2 {
@@ -206,14 +204,14 @@ button:focus {
     font-size: 36px;
     font-weight: 700px;
     line-height: 1.5;
-    
+
 }
 
 .team .team-ul {
     list-style: none;
-    padding:0;
+    padding: 0;
     display: flex;
-    gap:24px;
+    gap: 24px;
     text-align: center;
     justify-content: center;
 }
@@ -221,10 +219,10 @@ button:focus {
 
 
 .team .team-ul .team-items {
-    margin:0;
-    gap:24px;
+    margin: 0;
+    gap: 24px;
     padding-bottom: 32px;
-    padding-top:32px;
+    padding-top: 32px;
     border: 2px;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
@@ -238,19 +236,19 @@ button:focus {
 
 }
 
-.portfolio .portfolio-ul{
-    list-style:none;
-    padding:0;
-    display:flex;
+.portfolio .portfolio-ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
     flex-wrap: wrap;
     text-align: center;
-    gap:24px;
+    gap: 24px;
     margin: 0;
     justify-content: center;
-    
+
 }
 
-.portfolio .portfolio-ul .portfolio-items{
+.portfolio .portfolio-ul .portfolio-items {
     padding: 0;
     text-align: center;
     flex: 1 1 calc(33.333%-10px);
@@ -258,11 +256,13 @@ button:focus {
     box-sizing: border-box;
 
 }
-.portfolio-items img{
+
+.portfolio-items img {
     width: 100%;
     height: auto;
     display: block;
-    
+    border-bottom:1px solid #ccc;
+
 }
 
 
@@ -271,7 +271,7 @@ button:focus {
     font-size: 36px;
     font-weight: 700px;
     line-height: 1.5;
-    
+
 }
 
 .portfolio h3:hover,
@@ -289,16 +289,16 @@ button:focus {
     background-color: #2E2F42;
     color: white;
     font-weight: 400px;
-    padding-top:36px;
+    padding-top: 36px;
     padding-bottom: 36px;
-    
+
 
 }
 
 .footer-logo .logo {
     color: white;
-    
-    
+
+
 }
 
 
@@ -308,22 +308,29 @@ button:focus {
     color: #F4F4FD;
     font-weight: 400px;
     line-height: 1.5;
-    max-width:260px;
+    max-width: 260px;
 }
 
-h1,h2,h3,h4,h5,h6,p,ul{
-    margin:0;
-    padding:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    
-    
+
+
 }
 
 
-.section{
-    padding-top:120px;
-    padding-bottom:120px;
-    margin:0;
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0;
 }
 
 
@@ -332,4 +339,3 @@ h1,h2,h3,h4,h5,h6,p,ul{
     gap: 24px;
     align-items: center;
 }
-
