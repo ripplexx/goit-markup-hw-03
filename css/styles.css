@@ -107,6 +107,7 @@ header nav ul li a:focus {
     display: flex;
     gap: 30px;
     align-items: center;
+    text-decoration: none;
 
 
 }
@@ -279,7 +280,6 @@ button:focus {
     color: #ff6b08;
 
 }
-
 
 
 .footer-logo {
