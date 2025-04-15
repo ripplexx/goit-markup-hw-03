@@ -48,6 +48,7 @@ ul {
     align-items: center;
     padding: 24px 0;
     border-bottom: 1px solid #ccc;
+    
 }
 
 
@@ -55,6 +56,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 24px;
     
 }
 
@@ -140,17 +142,33 @@ ul {
     color: white;
     padding: 120px 0;
     margin: 0;
+    height: 600px;
+    padding: 188px;
 
 }
 
+.hero-title{
+    max-width: 500px; 
+    text-align: center;
+    margin: 0 auto;
+       
+    
+}
+
+
+
 .hero .container h1 {
     font-size: 56px;
+    font-weight: 700;
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
-    font-weight: 700;
     color: #FFFFFF;
     margin-bottom: 48px;
+   
+    
+    
+    
 
 }
 
@@ -169,12 +187,14 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 4px 4px 4px 4px;
+    margin-top:16px;
 
 }
 
 button:hover,
 button:focus {
-    color: #404BBF;
+    color:#fff;
+    background-color: #404BBF;
 }
 
 .features {
